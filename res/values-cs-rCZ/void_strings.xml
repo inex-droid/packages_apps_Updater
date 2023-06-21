@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 VoidUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Local Updates installation -->
+    <string name="local_update_import">Místní aktualizace</string>
+    <string name="local_update_import_progress">Probíhá import místní aktualizace\u2026</string>
+    <string name="local_update_import_success">%1$s byla importována. Chcete ji nainstalovat?</string>
+    <string name="local_update_import_failure">Nepodařilo se importovat místní aktualizaci</string>
+    <string name="local_update_import_install">Nainstalovat</string>
+    <string name="local_update_name">Místní aktualizace</string>
+    <!-- Blocked update message -->
+    <string name="blocked_update_dialog_message_custom">Tato aktualizace nejde nainstalovat pomocí zabudovaného aktualizátoru. Zkuste nainstalovat aktualizaci pomocí recovery.</string>
+    <!-- Maintainer Name -->
+    <string name="maintainer_name">Vývojař / správce: <xliff:g id="maintainer" example="Maintainer Name">%1$s</xliff:g></string>
+    <!-- Support Links -->
+    <string name="support_links">Odkaz na podporu</string>
+    <!-- Currect build date and type -->
+    <string name="current_build_date">Datum sestavení: <xliff:g id="build_date" example="Date">%1$s</xliff:g></string>
+    <string name="current_build_type">Aktuální typ sestavení: <xliff:g id="build_type" example="Type">%1$s</xliff:g></string>
+    <!-- Unknown status, usually when not able to fetch -->
+    <string name="build_type_unknown">Neoficiální nebo chybějící OTA informace</string>
+</resources>
