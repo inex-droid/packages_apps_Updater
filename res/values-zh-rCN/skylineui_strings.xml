@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 SkylineUI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Local Updates installation -->
+    <string name="local_update_import">本地更新</string>
+    <string name="local_update_import_progress">正在导入本地更新\u2026</string>
+    <string name="local_update_import_success">%1$s 已被导入。您想要安装它吗？</string>
+    <string name="local_update_import_failure">导入本地更新失败</string>
+    <string name="local_update_import_install">安装</string>
+    <string name="local_update_name">本地更新</string>
+    <!-- Blocked update message -->
+    <string name="blocked_update_dialog_message_custom">此更新无法使用更新程序安装。请尝试通过恢复安装更新。</string>
+    <!-- Maintainer Name -->
+    <string name="maintainer_name">维护者：<xliff:g id="maintainer" example="Maintainer Name">%1$s</xliff:g></string>
+    <!-- Support Links -->
+    <string name="support_links">捐赠链接：</string>
+    <!-- Currect build date and type -->
+    <string name="current_build_date">当前构建日期： <xliff:g id="build_date" example="Date">%1$s</xliff:g></string>
+    <string name="current_build_type">当前构建日期： <xliff:g id="build_type" example="Type">%1$s</xliff:g></string>
+    <!-- Unknown status, usually when not able to fetch -->
+    <string name="build_type_unknown">非官方或缺少 OTA 信息</string>
+</resources>

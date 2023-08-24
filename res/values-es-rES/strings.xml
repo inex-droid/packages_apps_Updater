@@ -60,8 +60,8 @@
     <string name="menu_copy_url">Copiar URL</string>
     <string name="menu_export_update">Exportar actualización</string>
     <string name="menu_show_changelog">Mostrar registro de cambios</string>
-    <string name="menu_update_recovery">Actualizar recuperación</string>
-    <string name="toast_forced_update_recovery">Es imposible deshabilitar las actualizaciones de Recuperación de SkylineUI en este dispositivo.</string>
+    <string name="menu_update_recovery">Actualizar recovery</string>
+    <string name="toast_forced_update_recovery">Es imposible deshabilitar las actualizaciones del Recovery de Lineage en este dispositivo.</string>
     <string name="snack_updates_found">Nuevas actualizaciones encontradas</string>
     <string name="snack_no_updates_found">No hay actualizaciones nuevas</string>
     <string name="snack_updates_check_failed">Falló la comprobación de actualización. Por favor, compruebe su conexión a Internet e inténtelo de nuevo más tarde.</string>
@@ -77,7 +77,7 @@
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">Verificando actualización</string>
-    <string name="list_no_updates">No se han encontrado nuevas actualizaciones. Para comprobar manualmente nuevas actualizaciones, utilice el botón Actualizar.</string>
+    <string name="list_no_updates">No se han encontrado nuevas actualizaciones. Para comprobar manualmente nuevas actualizaciones, utilice el botón recargar.</string>
     <string name="action_download">Descargar</string>
     <string name="action_pause">Pausar</string>
     <string name="action_resume">Reanudar</string>
@@ -88,7 +88,7 @@
     <string name="confirm_delete_dialog_title">Eliminar archivo</string>
     <string name="confirm_delete_dialog_message">¿Eliminar el archivo de actualización seleccionado?</string>
     <string name="apply_update_dialog_title">Aplicar actualización</string>
-    <string name="apply_update_dialog_message">Está a punto de instalar <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi pulsa <xliff:g id="ok">%2$s</xliff:g>, el dispositivo se reiniciará en modo recuperación para instalar la actualización.\n\nNota: Esta característica requiere una recuperación compatible o las actualizaciones tendrán que instalarse manualmente.</string>
+    <string name="apply_update_dialog_message">Está a punto de instalar <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi pulsa <xliff:g id="ok">%2$s</xliff:g>, el dispositivo se reiniciará en modo recovery para instalar la actualización.\n\nNota: Esta característica requiere un recovery compatible o las actualizaciones tendrán que instalarse manualmente.</string>
     <string name="apply_update_dialog_message_ab">Está a punto de instalar <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi pulsa <xliff:g id="ok">%2$s</xliff:g>, el dispositivo empezará la instalación en segundo plano.\n\nUna vez completado, se le pedirá que reinicie.</string>
     <string name="cancel_installation_dialog_message">¿Cancelar la instalación?</string>
     <string name="label_download_url">URL de Descarga</string>
@@ -111,9 +111,9 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
     </plurals>
     <string name="update_over_metered_network_title">Advertencia</string>
-    <string name="update_over_metered_network_message">Está a punto de descargar un paquete de actualización usando datos móviles que probablemente causarán un alto uso de datos. ¿Desea continuar?</string>
+    <string name="update_over_metered_network_message">Está a punto de descargar un paquete de actualización a través de una red medida que probablemente causará un alto uso de datos. ¿Desea continuar?</string>
     <string name="checkbox_metered_network_warning">No mostrar de nuevo</string>
-    <string name="menu_metered_network_warning">Advertencia de red medida</string>
+    <string name="menu_metered_network_warning">Advertencia de red de uso medido</string>
     <string name="blocked_update_dialog_title">Actualización bloqueada</string>
     <string name="blocked_update_dialog_message">Esta actualización no se puede instalar usando la aplicación de actualización. Por favor, lea <xliff:g id="info_url">%1$s</xliff:g> para más información.</string>
     <string name="export_channel_title">Exportación completada</string>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2023 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Trình cập nhật</string>
+    <string name="display_name">Cập nhật</string>
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!--
+        Optional placeholders replaced at runtime:
+          {device} - Device name
+    -->
+    <string name="verification_failed_notification">Xác thực thất bại</string>
+    <string name="verifying_download_notification">Đang xác thực bản cập nhật</string>
+    <string name="downloading_notification">Đang tải xuống</string>
+    <string name="download_paused_notification">Đã tạm dừng tải xuống</string>
+    <string name="download_paused_error_notification">Có lỗi khi tải xuống</string>
+    <string name="download_completed_notification">Đã tải xuống</string>
+    <string name="download_starting_notification">Bắt đầu tải xuống</string>
+    <string name="update_failed_notification">Cập nhật thất bại</string>
+    <string name="installation_suspended_notification">Đã trì hoãn việc cài đặt</string>
+    <string name="new_updates_found_title">Đã có bản cập nhật mới</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="pause_button">Tạm dừng</string>
+    <string name="resume_button">Tiếp tục</string>
+    <string name="suspend_button">Trì hoãn</string>
+    <string name="installing_update">Đang cài đặt bản cập nhật</string>
+    <string name="installing_update_error">Có lỗi khi cài đặt bản cập nhật</string>
+    <string name="installing_update_finished">Đã cài đặt bản cập nhật</string>
+    <string name="finalizing_package">Đang hoàn tất cài đặt gói</string>
+    <string name="preparing_ota_first_boot">Đang chuẩn bị cho lần khởi động đầu tiên</string>
+    <string name="dialog_prepare_zip_message">Đang chuẩn bị bản cập nhật</string>
+    <string name="dialog_battery_low_title">Pin yếu</string>
+    <string name="dialog_battery_low_message_pct">Lượng pin còn lại quá ít, bạn cần ít nhất <xliff:g id="percent_discharging">%1$d</xliff:g>%% pin để tiếp tục, <xliff:g id="percent_charging">%2$d</xliff:g>%% nếu đang sạc.</string>
+    <string name="reboot">Khởi động lại</string>
+    <string name="menu_refresh">Làm mới</string>
+    <string name="menu_preferences">Tùy chỉnh</string>
+    <string name="menu_auto_updates_check">Tự động kiểm tra bản cập nhật</string>
+    <string name="menu_auto_updates_check_interval_daily">Mỗi ngày</string>
+    <string name="menu_auto_updates_check_interval_weekly">Mỗi tuần</string>
+    <string name="menu_auto_updates_check_interval_monthly">Mỗi tháng</string>
+    <string name="menu_auto_updates_check_interval_never">Không bao giờ</string>
+    <string name="menu_auto_delete_updates">Xóa bản cập nhật sau khi cài</string>
+    <string name="menu_delete_update">Xóa</string>
+    <string name="menu_copy_url">Chép URL</string>
+    <string name="menu_export_update">Xuất bản cập nhật</string>
+    <string name="menu_show_changelog">Xem các thay đổi</string>
+    <string name="menu_update_recovery">Cập nhật trình khôi phục</string>
+    <string name="toast_forced_update_recovery">Không thể tắt bản cập nhật Lineage Recovery trên thiết bị này.</string>
+    <string name="snack_updates_found">Đã tìm thấy bản cập nhật mới</string>
+    <string name="snack_no_updates_found">Không tìm thấy bản cập nhật mới nào</string>
+    <string name="snack_updates_check_failed">Kiểm tra cập nhật thất bại. Hãy kiểm tra kết nối Internet của bạn và thử lại sau.</string>
+    <string name="snack_download_failed">Tải xuống bản cập nhật thất bại. Hãy kiểm tra kết nối Internet của bạn và thử lại sau.</string>
+    <string name="snack_download_verification_failed">Xác thực bản cập nhật thất bại.</string>
+    <string name="snack_download_verified">Đã tải xuống.</string>
+    <string name="snack_update_not_installable">Bản cập nhật không thể cài được trên bản dựng này.</string>
+    <string name="header_title_text">SkylineUI\n%1$s</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Lần kiểm tra cuối: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> trên <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> trên <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_verifying_update">Đang xác thực bản cập nhật</string>
+    <string name="list_no_updates">Không tìm thấy bản cập nhật mới nào. Để kiểm tra thủ công, dùng nút Làm mới.</string>
+    <string name="action_download">Tải xuống</string>
+    <string name="action_pause">Tạm dừng</string>
+    <string name="action_resume">Tiếp tục</string>
+    <string name="action_install">Cài đặt</string>
+    <string name="action_info">Thông tin</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="confirm_delete_dialog_title">Xóa tệp</string>
+    <string name="confirm_delete_dialog_message">Bạn có muốn xóa tệp bản cập nhật đã chọn?</string>
+    <string name="apply_update_dialog_title">Áp dụng bản cập nhật</string>
+    <string name="apply_update_dialog_message">Bạn chuẩn bị cài <xliff:g id="update_name">%1$s</xliff:g>.\n\nNếu bạn nhấn <xliff:g id="ok">%2$s</xliff:g>, thiết bị sẽ tự khởi động về chế độ khôi phục để cài đặt bản cập nhật.\n\nGhi chú: Tính năng này cần một trình khôi phục thích hợp, nếu không bạn sẽ phải cài đặt thủ công.</string>
+    <string name="apply_update_dialog_message_ab">Bạn chuẩn bị cài <xliff:g id="update_name">%1$s</xliff:g>.\n\nNếu bạn nhấn <xliff:g id="ok">%2$s</xliff:g>, thiết bị sẽ bắt đầu cài đặt bản cập nhật trong nền.\n\nSau khi cài đặt xong, bạn sẽ được nhắc để khởi động lại.</string>
+    <string name="cancel_installation_dialog_message">Hủy việc cài đặt?</string>
+    <string name="label_download_url">URL tải xuống</string>
+    <string name="toast_download_url_copied">Đã chép URL</string>
+    <string name="dialog_export_title">Đang xuất bản cập nhật</string>
+    <string name="notification_export_success">Đã xuất bản cập nhật</string>
+    <string name="notification_export_fail">Có lỗi khi xuất bản cập nhật</string>
+    <string name="toast_already_exporting">Đã đang xuất bản cập nhật</string>
+    <string name="toast_export_started">Bắt đầu xuất bản cập nhật</string>
+    <plurals name="eta_seconds">
+        <item quantity="other">Còn <xliff:g id="count">%d</xliff:g> giây</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="other">Còn <xliff:g id="count">%d</xliff:g> phút</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="other">Còn <xliff:g id="count">%d</xliff:g> giờ</item>
+    </plurals>
+    <string name="update_over_metered_network_title">Cảnh báo</string>
+    <string name="update_over_metered_network_message">Bạn chuẩn bị tải xuống bản cập nhật qua mạng có giới hạn lưu lượng, sẽ sử dụng nhiều lưu lượng dữ liệu. Bạn vẫn muốn tiếp tục?</string>
+    <string name="checkbox_metered_network_warning">Đừng hiển thị lại</string>
+    <string name="menu_metered_network_warning">Cảnh báo mạng có giới hạn lưu lượng</string>
+    <string name="blocked_update_dialog_title">Bản cập nhật đã bị chặn</string>
+    <string name="blocked_update_dialog_message">Bản cập nhật này không thể được cài bằng Trình cập nhật. Hãy đọc <xliff:g id="info_url">%1$s</xliff:g> để biết thêm.</string>
+    <string name="export_channel_title">Quá trình xuất bản cập nhật</string>
+    <string name="new_updates_channel_title">Bản cập nhật mới</string>
+    <string name="ongoing_channel_title">Các bản tải xuống</string>
+    <string name="update_failed_channel_title">Cập nhật thất bại</string>
+    <string name="info_dialog_title">Bạn có biết?</string>
+    <string name="info_dialog_message">Các bản cập nhật của SkylineUI đều là bản đầy đủ, bạn có thể cập nhật bản mới nhất kể cả khi đã bỏ qua một vài bản cập nhật khác ở giữa!</string>
+    <string name="info_dialog_ok">Cảm ơn vì thông tin!</string>
+</resources>
