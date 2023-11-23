@@ -69,11 +69,11 @@
     <string name="snack_download_verification_failed">Xác thực bản cập nhật thất bại.</string>
     <string name="snack_download_verified">Đã tải xuống.</string>
     <string name="snack_update_not_installable">Bản cập nhật không thể cài được trên bản dựng này.</string>
-    <string name="header_title_text">SkylineUI\n%1$s</string>
+    <string name="header_title_text">InexDroid\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">Lần kiểm tra cuối: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_build_version">InexDroid <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">InexDroid <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> trên <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> trên <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
     <string name="list_verifying_update">Đang xác thực bản cập nhật</string>
@@ -118,6 +118,6 @@
     <string name="ongoing_channel_title">Các bản tải xuống</string>
     <string name="update_failed_channel_title">Cập nhật thất bại</string>
     <string name="info_dialog_title">Bạn có biết?</string>
-    <string name="info_dialog_message">Các bản cập nhật của SkylineUI đều là bản đầy đủ, bạn có thể cập nhật bản mới nhất kể cả khi đã bỏ qua một vài bản cập nhật khác ở giữa!</string>
+    <string name="info_dialog_message">Các bản cập nhật của InexDroid đều là bản đầy đủ, bạn có thể cập nhật bản mới nhất kể cả khi đã bỏ qua một vài bản cập nhật khác ở giữa!</string>
     <string name="info_dialog_ok">Cảm ơn vì thông tin!</string>
 </resources>

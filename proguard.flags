@@ -1,1 +1,1 @@
--keep class com.skylineui.updater.ui.FlingBehavior { *; }
+-keep class com.inexdroid.updater.ui.FlingBehavior { *; }

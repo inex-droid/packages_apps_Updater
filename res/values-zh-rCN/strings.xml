@@ -69,11 +69,11 @@
     <string name="snack_download_verification_failed">更新验证失败。</string>
     <string name="snack_download_verified">下载完成.</string>
     <string name="snack_update_not_installable">此更新无法安装在当前版本之上。</string>
-    <string name="header_title_text">SkylineUI\n%1$s</string>
+    <string name="header_title_text">InexDroid\n%1$s</string>
     <string name="header_android_version">Android <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
     <string name="header_last_updates_check">上次检查更新：<xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
-    <string name="list_build_version">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
-    <string name="list_build_version_date">SkylineUI <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_build_version">InexDroid <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">InexDroid <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> 已下载，总共 <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> 已下载，总共 <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g>（<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>）</string>
     <string name="list_verifying_update">正在验证更新</string>
@@ -118,6 +118,6 @@
     <string name="ongoing_channel_title">正在下载</string>
     <string name="update_failed_channel_title">更新失败</string>
     <string name="info_dialog_title">您知道吗？</string>
-    <string name="info_dialog_message">SkylineUI 更新是完整的安装包。这意味着您总是可以只安装最新的更新，即使您在中间跳过了一些版本，也没有关系。</string>
+    <string name="info_dialog_message">InexDroid 更新是完整的安装包。这意味着您总是可以只安装最新的更新，即使您在中间跳过了一些版本，也没有关系。</string>
     <string name="info_dialog_ok">感谢您的反馈！</string>
 </resources>
